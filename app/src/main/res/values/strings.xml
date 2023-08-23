@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">My Expense Tracker</string>
+    <string name="edit_one">Log one</string>
+    <string name="month_out">Monthly expenses</string>
+    <string name="month_in">Monthly income</string>
+    <string name="budget">Budget: </string>
+    <string name="set_budget">Set budget</string>
+    <string name="view_chart">View Chart Analysis</string>
+    <string name="day_out">Today expenses: $ 0, income: $ 0</string>
+    <string name="add_notes">Add notes</string>
+    <string name="other">Other</string>
+    <string name="add_a_record_note">Add a note</string>
+    <string name="note">Note</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="input_calender">Please enter the date and time (24-hour system)</string>
+    <string name="about">About</string>
+    <string name="setting">Settig</string>
+    <string name="history_record">Billing records</string>
+    <string name="account_info">Billing details</string>
+    <string name="please_input_time">Please enter the time (24-hour system)</string>
+    <string name="please_search_info">Please enter your search information</string>
+    <string name="date_empty">Data is empty, no such record</string>
+    <string name="chart_info">Billing Analysis</string>
+    <string name="about_appinfo">Application Information</string>
+    <string name="about_version">Version</string>
+    <string name="history_info">Current Monthly Billing Records</string>
+    <string name="clear_all">Clear all records</string>
+    <string name="not_data">No data available</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

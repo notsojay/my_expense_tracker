@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/dialog_add_record_notes_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_a_record_note"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/dialog_notes_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_add_record_notes_tv"
+        android:hint="@string/note"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="14sp"
+        android:background="@color/white">
+        <requestFocus/>
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/dialog_notes_edit"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/dialog_record_notes_cancel_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:background="@drawable/dialog_btn_bg"
+            android:textStyle="bold"
+            android:textColor="@color/green_006400"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:id="@+id/dialog_record_notes_confirm_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/confirm"
+            android:background="@drawable/main_record_btn_bg"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginRight="5dp"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
